@@ -8,6 +8,7 @@ import "./App.css";
 import StartPage from "./pages/StartPage/StartPage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import SignupPage from "./pages/SignupPage/SignupPage";
+import HomePage from "./pages/Home/HomePage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<StartPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
+            <Route path="/home" element={<HomePage />} />
           </Routes>
         </div>
       </BrowserRouter>

@@ -33,10 +33,10 @@ export const Title = styled.h1`
 export const InputContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 5px;
 
   margin-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 `;
 
 export const SignupContainer = styled.div`
